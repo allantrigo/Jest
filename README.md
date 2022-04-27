@@ -26,4 +26,4 @@ yarn coverage
 ```
 Ao executar esse comando é possível ver também a coverage do projeto. Além disso, é possível visualizar também a coverage detalhadamente a partir da pasta que é criada, chamada ```coverage```, dentro dela há uma outra pasta chamada ```lcov-report```, dentro dela há o index.html, um arquivo que mostra também a coverage detalhada e as branchs não inspecionadas do código.
 
-Projeto desenvolvido por [Allan Trigo](https://github.com/allantrigo), [Jessian Ribeiro]() e [Lucas Alípio]().
+Projeto desenvolvido por [Allan Trigo](https://github.com/allantrigo), [Jessian Ribeiro](https://github.com/JessianCRB) e [Lucas Alípio](github.com/Lucas-Alipio).
