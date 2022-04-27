@@ -16,10 +16,9 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
       - run: yarn
-      - run: yarn test
       - name: Get Coverage for badge
         run: |
-          SUMMARY="$(yarn coverage -- --coverageReporters='text-summary' | tail -2 | head -1)"
+          SUMMARY="$(yarn coverage --coverageReporters='text-summary' | tail -2 | head -1)"
           TOKENS=($SUMMARY)
           echo "COVERAGE=$(echo ${TOKENS[2]})" >> $GITHUB_ENV
           REF=${{ github.ref }}
