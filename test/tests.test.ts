@@ -97,15 +97,6 @@ describe("Arrays", () => {
   })
 });
 
-describe("Excessões", () => {
-  it("Expect Error", () => {
-    expect(() => div(1, 0)).toThrow()
-    expect(() => div(1, 0)).toThrow(Error)
-    expect(() => div(1, 0)).toThrow("Impossible to divide by 0")
-    expect(() => div(1, 0)).toThrow(/Impossible/)
-  })
-});
-
 describe("Assíncronas", () => {
   it("Promise", () => {
     return promiseAfter(2, 1).then(number => {
